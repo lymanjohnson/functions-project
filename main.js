@@ -18,13 +18,14 @@ let arg1;
 let arg2;
 let arg3;
 
-console.log("Problem 1");
+console.log();
+console.log("===Problem 1===");
 arg1 = 3;
 arg2 = 5;
-console.log("The max of",arg1,"and",arg2,"is",max(arg1,arg2));
+console.log("   ","The max of",arg1,"and",arg2,"is",max(arg1,arg2));
 arg1 = 30;
 arg2 = -10;
-console.log("The max of",arg1,"and",arg2,"is",max(arg1,arg2));
+console.log("   ","The max of",arg1,"and",arg2,"is",max(arg1,arg2));
 console.log();
 
 // 2.
@@ -40,19 +41,19 @@ function maxOfThree(num1,num2,num3){
 arg1= 10;
 arg2= 30;
 arg3= 3.14159;
-console.log("Problem 2");
-console.log("The max of",arg1+",",arg2+", and",arg3,"is",maxOfThree(arg1,arg2,arg3));
+console.log("===Problem 2===");
+console.log("   ","The max of",arg1+",",arg2+", and",arg3,"is",maxOfThree(arg1,arg2,arg3));
 
 arg1= 1000;
 arg2= -2;
 arg3= 350;
 
-console.log("The max of",arg1+",",arg2+", and",arg3,"is",maxOfThree(arg1,arg2,arg3));
+console.log("   ","The max of",arg1+",",arg2+", and",arg3,"is",maxOfThree(arg1,arg2,arg3));
 
 arg1= -60;
 arg2= -3000;
 arg3= -5;
-console.log("The max of",arg1+",",arg2+", and",arg3,"is",maxOfThree(arg1,arg2,arg3));
+console.log("   ","The max of",arg1+",",arg2+", and",arg3,"is",maxOfThree(arg1,arg2,arg3));
 console.log();
 
 
@@ -80,42 +81,49 @@ function isVowel(char){
 
 }
 
-console.log("Problem 3");
+console.log("===Problem 3===");
 
 arg1 = "a";
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
 arg1 = "e";
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
 arg1 = "i";
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
 arg1 = "o";
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
 arg1 = "u";
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
 arg1 = "y";
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
+
+console.log();
 
 arg1 = "A";
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
 arg1 = "E";
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
 arg1 = "I";
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
 arg1 = "O";
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
 arg1 = "U";
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
 arg1 = "Y";
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
 
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log()
+
 arg1 = "z";
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
 arg1 = "W";
+console.log("   ",arg1,"is a vowel?","         ",isVowel(arg1));
+
 console.log();
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+
 arg1 = "Fire hose";
-console.log(arg1,"is a vowel?","         ",isVowel(arg1));
+console.log("   ",arg1,"is a vowel?","   ",isVowel(arg1));
 arg1 = 520;
-console.log(arg1,'is a vowel?',"         ",isVowel(arg1));
+console.log("   ",arg1,'is a vowel?',"         ",isVowel(arg1));
 console.log();
 
 // 4.
@@ -126,16 +134,16 @@ function sum(num1,num2){
   return num1 + num2;
 }
 
-console.log("Problem 4");
+console.log("===Problem 4===");
 arg1=5;
 arg2=10;
-console.log("The sum of",arg1,"and",arg2,"is",sum(arg1,arg2));
+console.log("   ","The sum of",arg1,"and",arg2,"is",sum(arg1,arg2));
 arg1=-3000;
 arg2=30001;
-console.log("The sum of",arg1,"and",arg2,"is",sum(arg1,arg2));
+console.log("   ","The sum of",arg1,"and",arg2,"is",sum(arg1,arg2));
 arg1=6;
 arg2=.14159*2;
-console.log("The sum of",arg1,"and",arg2,"is",sum(arg1,arg2));
+console.log("   ","The sum of",arg1,"and",arg2,"is",sum(arg1,arg2));
 console.log();
 
 // 5.
@@ -145,19 +153,19 @@ console.log();
 function avg(num1, num2, num3) {
   return (num1+num2+num3)/3;
 }
-console.log("Problem 5");
+console.log("===Problem 5===");
 arg1=3;
 arg2=5;
 arg3=20;
-console.log("The average of",arg1+",",arg2+", and",arg3,"is",avg(arg1,arg2,arg3));
+console.log("   ","The average of",arg1+",",arg2+", and",arg3,"is",avg(arg1,arg2,arg3));
 arg1=1;
 arg2=.5;
 arg3=.3;
-console.log("The average of",arg1+",",arg2+", and",arg3,"is",avg(arg1,arg2,arg3));
+console.log("   ","The average of",arg1+",",arg2+", and",arg3,"is",avg(arg1,arg2,arg3));
 arg1=-300;
 arg2=0;
 arg3=300;
-console.log("The average of",arg1+",",arg2+", and",arg3,"is",avg(arg1,arg2,arg3));
+console.log("   ","The average of",arg1+",",arg2+", and",arg3,"is",avg(arg1,arg2,arg3));
 console.log();
 
 // 6.
@@ -169,10 +177,10 @@ function getLength(word) {
 }
 
 
-console.log("Problem 6");
-console.log("floccinocinihilipilification has " + getLength("floccinocinihilipilification") + " letters")
-console.log("Awesome has " + getLength("Awesome") + " letters")
-console.log("'Bone hurting juice' has " + getLength("Bone hurting juice") + " characters")
+console.log("===Problem 6===");
+console.log("   ","floccinocinihilipilification has " + getLength("floccinocinihilipilification") + " letters")
+console.log("   ","Awesome has " + getLength("Awesome") + " letters")
+console.log("   ","'Bone hurting juice' has " + getLength("Bone hurting juice") + " characters")
 console.log();
 
 // 7.
@@ -185,62 +193,62 @@ function greaterThan(param1,param2) {
   return param2>param1;
 }
 
-console.log("Problem 7");
+console.log("===Problem 7===");
 
 arg1 = 5;
 arg2 = 10;
 
-console.log(arg2+" is greater than "+arg1+"?")
-console.log("   "+greaterThan(arg1,arg2));
+console.log("   ",arg2+" is greater than "+arg1+"?")
+console.log("   ","   "+greaterThan(arg1,arg2));
 
 arg1 = "wowie zowie";
 arg2 = "argh!";
 
-console.log(arg2+" is greater than "+arg1+"?")
-console.log("   "+greaterThan(arg1,arg2));
+console.log("   ",arg2+" is greater than "+arg1+"?")
+console.log("   ","   "+greaterThan(arg1,arg2));
 
 arg1 = "argh!";
 arg2 = "wowie zowie";
 
 
-console.log(arg2+" is greater than "+arg1+"?")
-console.log("   "+greaterThan(arg1,arg2));
+console.log("   ",arg2+" is greater than "+arg1+"?")
+console.log("   ","   "+greaterThan(arg1,arg2));
 
 arg1 = 2;
 arg2 = "Hot dog";
 
-console.log(arg2+" is greater than "+arg1+"?")
-console.log("   "+greaterThan(arg1,arg2));
+console.log("   ",arg2+" is greater than "+arg1+"?")
+console.log("   ","   "+greaterThan(arg1,arg2));
 
 arg1 = "Hot dog";
 arg2 = 2;
 
-console.log(arg2+" is greater than "+arg1+"?")
-console.log("   "+greaterThan(arg1,arg2));
+console.log("   ",arg2+" is greater than "+arg1+"?")
+console.log("   ","   "+greaterThan(arg1,arg2));
 
 arg1 = "Five";
 arg2 = 5;
 
-console.log(arg2+" is greater than "+arg1+"?")
-console.log("   "+greaterThan(arg1,arg2));
+console.log("   ",arg2+" is greater than "+arg1+"?")
+console.log("   ","   "+greaterThan(arg1,arg2));
 
 arg1 = 5;
 arg2 = "Five";
 
-console.log(arg2+" is greater than "+arg1+"?")
-console.log("   "+greaterThan(arg1,arg2));
+console.log("   ",arg2+" is greater than "+arg1+"?")
+console.log("   ","   "+greaterThan(arg1,arg2));
 
 arg1 = "aces";
 arg2 = false;
 
-console.log(arg2+" is greater than "+arg1+"?")
-console.log("   "+greaterThan(arg1,arg2));
+console.log("   ",arg2+" is greater than "+arg1+"?")
+console.log("   ","   "+greaterThan(arg1,arg2));
 
 arg1 = false;
 arg2 = "aces";
 
-console.log(arg2+" is greater than "+arg1+"?")
-console.log("   "+greaterThan(arg1,arg2));
+console.log("   ",arg2+" is greater than "+arg1+"?")
+console.log("   ","   "+greaterThan(arg1,arg2));
 console.log();
 
 
@@ -253,11 +261,11 @@ console.log();
 
 function greet(name){
 
-  console.log("Hello, "+name+"!");
+  console.log("   ","Hello, "+name+"!");
 
 }
 
-console.log("Problem 8");
+console.log("===Problem 8===");
 greet("David");
 greet("Michael");
 greet("Rachel");
@@ -273,11 +281,11 @@ console.log();
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
 
-console.log("Problem 9");
+console.log("===Problem 9===");
 
 function madLib(subject,verb,adjective,adverb,object){
-  console.log("A very",adjective,subject,adverb,verb,"a",object+".");
-  console.log("My, how utterly absurd!")
+  console.log("   ","A very",adjective,subject,adverb,verb,"a",object+".");
+  console.log("   ","My, how utterly absurd!")
 }
 madLib("boy","crushed","stupid","resoundly","stud")
 console.log();
